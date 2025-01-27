@@ -22,15 +22,10 @@ This project uses **MediaPipe's Pose solution** and **OpenCV** to estimate human
 ## Installation
 
 ### 1. Clone the Repository
-```bash
 git clone https://github.com/vinuthnav/Human_Pose_Estimation.git
 cd human-posture-estimation
 2. Set Up a Python Environment
-(Optional but recommended)
-
-bash
-Copy
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+  
 3. Install Dependencies
 bash
 Copy
@@ -38,43 +33,33 @@ pip install -r requirements.txt
 4. Verify Installation
 Ensure Python 3.7+ is installed:
 
-bash
-Copy
 python --version
 Ensure OpenCV and MediaPipe are installed:
 
-bash
-Copy
 python -c "import cv2, mediapipe; print('Setup complete!')"
 Usage
 Run the Posture Estimation Script
-bash
-Copy
+
 python posture_estimation.py
 Instructions
 Ensure your webcam is connected and functioning properly.
 A window displaying the webcam feed with pose landmarks will open.
 Press 'q' to exit the application.
 File Structure
-bash
-Copy
 human-posture-estimation/
 │
-├── HUMAN_Estimation_Live(1).ipynb   # Main script for posture detection
-├── Video_estimation.ipynb           # Additional script for video input
-├── requirements.txt                 # List of project dependencies
-├── Video.mp4                        # Sample video for testing
-├── Pos_image.png                    # Sample image for testing
-├── README.md                        # Project documentation
+├── HUMAN_Estimation_Live(1).ipynb  
+├── Video_estimation.ipynb           
+├── requirements.txt                 
+├── Video.mp4                       
+├── Pos_image.png                    
+├── README.md                       
 Requirements
 Python 3.7 or higher
 OpenCV
 MediaPipe
 A functional webcam or external camera
 To install dependencies:
-
-bash
-Copy
 pip install -r requirements.txt
 Customization
 You can adjust the following parameters in the code to fine-tune the performance:
