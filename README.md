@@ -1,19 +1,28 @@
-**Human Posture Estimation using MediaPipe and OpenCV
-This project leverages MediaPipe's Pose solution and OpenCV to estimate human posture in real-time via webcam input. The system provides keypoint detection for 33 body landmarks, making it suitable for various applications like fitness tracking, ergonomic monitoring, and gesture recognition.
+# Human Posture Estimation using MediaPipe and OpenCV
 
-Features
-Real-time human posture detection using webcam input.
-Identification and visualization of 33 body landmarks.
-Highly customizable detection and tracking confidence thresholds.
-Lightweight and efficient solution leveraging MediaPipe.
-Technologies Used
-Python: Primary programming language for the project.
-MediaPipe: Used for pose estimation and landmark detection.
-OpenCV: Used for video capture and image processing.
-Installation
-1. Clone the Repository
-bash
-Copy
+This project uses **MediaPipe's Pose solution** and **OpenCV** to estimate human posture in real-time via webcam input. The solution provides keypoint detection for **33 body landmarks**, making it suitable for applications like **fitness tracking**, **ergonomic monitoring**, and **gesture recognition**.
+
+---
+
+## Features
+- **Real-time human posture detection** using webcam input.
+- **Identification and visualization of 33 body landmarks**.
+- Highly customizable **detection and tracking confidence thresholds**.
+- **Lightweight and efficient solution** leveraging MediaPipe.
+
+---
+
+## Technologies Used
+- **Python**: Primary programming language for the project.
+- **MediaPipe**: For pose estimation and landmark detection.
+- **OpenCV**: For video capture and image processing.
+
+---
+
+## Installation
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/vinuthnav/Human_Pose_Estimation.git
 cd human-posture-estimation
 2. Set Up a Python Environment
@@ -42,7 +51,7 @@ Run the Posture Estimation Script
 bash
 Copy
 python posture_estimation.py
-Instructions:
+Instructions
 Ensure your webcam is connected and functioning properly.
 A window displaying the webcam feed with pose landmarks will open.
 Press 'q' to exit the application.
@@ -91,5 +100,3 @@ Future Enhancements
 Integrate a GUI for user interaction.
 Save detected poses for post-processing and analysis.
 Incorporate custom actions or pose alerts.
-Contributing
-Contributions are welcome! Feel free to fork this repository and submit pull requests.
